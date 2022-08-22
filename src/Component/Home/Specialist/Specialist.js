@@ -3,8 +3,8 @@ import './Specialist.css'
 import Image1 from './../../../Assets/Images/IMG_0224.jpg'
 const Specialist = () => {
     return (
-        <div className='specialist'>
-            <div className="container">
+        <div className='specialist '>
+            <div className="container my-5">
                 <div className='row'>
                     <div className="col-12 col-md-6">
                         <h1>SPECIALIZATION</h1>
@@ -15,7 +15,7 @@ const Specialist = () => {
                 </div>
 
                 <div>
-                    <div className="row row-cols-1 row-cols-md-3 g-4">
+                    <div className="row row-cols-1 row-cols-md-3 g-4 my-5">
 
                         <div className="col"  >
                             <img src={Image1} className="img-fluid rounded-start w-100" alt="..." />
