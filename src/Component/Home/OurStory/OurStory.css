@@ -1,0 +1,10 @@
+.OurStory {
+    background-image: url("./../../../Assets/Images/drama-1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}

@@ -1,0 +1,10 @@
+.specialist {
+    background-image: url("./../../../Assets/Images/IMG_7176.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
