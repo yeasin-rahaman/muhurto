@@ -1,0 +1,28 @@
+.BestInPrice {
+    background-image: url("./../../../Assets/Images/33.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+
+.packages {
+    padding: 4rem;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.packages h3 {
+    font-size: 2rem;
+}
+
+.packages h1 {
+    font-size: 4rem;
+}
+
+.packages p {
+    font-size: 1rem;
+    padding: 0.5rem;
+}

@@ -1,5 +1,7 @@
 import React from 'react';
+import TypewriterComponent from 'typewriter-effect';
 import './HeroSection.css'
+
 const HeroSection = () => {
     return (
         <div className='HeroSection'>
@@ -9,7 +11,15 @@ const HeroSection = () => {
                         <h1><strong>Muhurto</strong>
                             <br />
                             Bangladesh</h1>
-                        <h3>PHOTOGRAPHER & FILM MAKER
+                        <h3>
+                            <TypewriterComponent
+                                options={{
+                                    strings: ['PHOTOGRAPHER & FILM MAKER.'],
+                                    autoStart: true,
+                                    loop: true,
+                                    delay: 100
+                                }}
+                            />
                         </h3>
                     </div>
                 </div>

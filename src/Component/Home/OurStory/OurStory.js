@@ -1,14 +1,14 @@
 import React from 'react';
 import './OurStory.css'
 import Image1 from './../../../Assets/Images/IMG_0224.jpg'
-import Image2 from './../../../Assets/Images/all most done.jpg'
+import Image2 from './../../../Assets/Images/all-most-done.jpg'
 import Image3 from './../../../Assets/Images/িগলোত.jpg'
 const OurStory = () => {
     return (
         <div className='OurStory '>
-            <div className="container">
+            <div className="container my-5">
                 <div className="row  align-items-center">
-                    <div className="col-md-6 col-12">
+                    <div className="col-md-6 col-12 my-5">
 
                         <h2>PHOTOGRAPHY IS THE STORY I FAIL TO PUT INTO WORDS</h2>
                         <p>Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Sem et tortor consequat id porta nibh venenatis cras tincidunt praesent semper.</p>
