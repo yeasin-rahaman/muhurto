@@ -1,3 +1,10 @@
 .footerNavigation span {
     margin: .5rem;
 }
+
+.footer a,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+}

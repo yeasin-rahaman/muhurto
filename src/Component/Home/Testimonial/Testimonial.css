@@ -1,0 +1,40 @@
+.review-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center !important;
+}
+
+#profile-img {
+    display: inline-block;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 25px !important;
+}
+
+.review-box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 17px 15px 5px #000000;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+.star {
+    color: goldenrod;
+}
+
+.Testimonial {
+    background-image: url("./../../../Assets/Images/2123123.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}

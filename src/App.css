@@ -13,6 +13,25 @@
   }
 }
 
+#fixedbutton {
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 5rem;
+  right: 2.5rem;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  outline: 0;
+  border: 1px solid;
+  color: white;
+
+  z-index: 9999;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -32,6 +51,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

@@ -7,7 +7,7 @@ const HeroSection = () => {
         <div className='HeroSection'>
             <div className="container">
                 <div className='d-flex  '>
-                    <div className='heroText p-5 rounded  ms-auto'>
+                    <div className='heroText p-5 rounded'>
                         <h1><strong>Muhurto</strong>
                             <br />
                             Bangladesh</h1>

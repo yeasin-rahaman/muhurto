@@ -1,7 +1,5 @@
 .WhyChooseUs {
-
-
-    background-image: url("./../../../Assets/Images/22.jpg");
+    background-image: url("./../../../Assets/Images/IMG_0996.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
@@ -9,7 +7,6 @@
     display: flex;
     align-items: center;
     background-size: cover;
-
 }
 
 .WhyChooseUs i {

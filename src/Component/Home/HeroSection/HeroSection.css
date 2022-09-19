@@ -20,7 +20,40 @@
 
 
     .OurStory {
-        background-image: url("./../../../Assets/Images/drama-1.jpg");
+        background-image: url("./../../../Assets/Images/about-us-background.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100% !important;
+        color: white;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+    }
+
+    .WhyChooseUs {
+        background-image: url("./../../../Assets/Images/2123123.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100% !important;
+        color: white;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+    }
+
+    .BestInPrice {
+        background-image: url("./../../../Assets/Images/33.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100% !important;
+        color: white;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+    }
+
+    .WhyChooseUs {
+        background-image: url("./../../../Assets/Images/22.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
         height: 100% !important;

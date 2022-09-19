@@ -2,7 +2,7 @@
     background-image: url("./../../../Assets/Images/33.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;
+    height: 100%;
     color: white;
     display: flex;
     align-items: center;

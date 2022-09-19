@@ -7,6 +7,9 @@ import OurStory from './OurStory/OurStory';
 import Specialist from './Specialist/Specialist';
 import Footer from './Footer/Footer';
 import WhyChooseUs from './WhyChooseUs/WhyChooseUs';
+import Testimonial from './Testimonial/Testimonial';
+import Contact from './Contact/Contact';
+
 
 
 const Home = () => {
@@ -17,8 +20,10 @@ const Home = () => {
             <Memories></Memories>
             <Specialist></Specialist>
             <WhyChooseUs></WhyChooseUs>
+            <Testimonial></Testimonial>
             <BestInPrice></BestInPrice>
-            <BeyondTheOrdinary></BeyondTheOrdinary>
+            {/* <BeyondTheOrdinary></BeyondTheOrdinary> */}
+            <Contact></Contact>
             <Footer></Footer>
         </div>
     );

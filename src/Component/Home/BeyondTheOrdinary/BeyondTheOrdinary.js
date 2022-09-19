@@ -1,11 +1,12 @@
 import React from 'react';
-import Image1 from './../../../Assets/Images/IMG_0224.jpg'
-import Image2 from './../../../Assets/Images/all-most-done.jpg'
-import Image3 from './../../../Assets/Images/িগলোত.jpg'
+import Image1 from './../../../Assets/Images/about-us-img-1.jpg'
+import Image2 from './../../../Assets/Images/about-us-img-2.jpg'
+import Image3 from './../../../Assets/Images/about-us-img-3.jpg'
 import './BeyondTheOrdinary.css'
+import Modal from '../../Test/Modal';
 const BeyondTheOrdinary = () => {
     return (
-        <div className='OurStory '>
+        <div className='BeyondTheOrdinary'>
             <div className="container my-5">
                 <div className="row  align-items-center">
                     <div className="col-md-6 col-12 my-5">
@@ -20,6 +21,7 @@ const BeyondTheOrdinary = () => {
                     <div className="col-md-6">
 
                         <div className="row">
+
                             <div className="col-12 mt-4">
                                 <img className='img-fluid' src={Image1} alt="" />
                             </div>
@@ -33,6 +35,7 @@ const BeyondTheOrdinary = () => {
                     </div>
                 </div>
             </div>
+
         </div>
     );
 };
