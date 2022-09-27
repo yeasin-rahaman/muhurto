@@ -1,4 +1,4 @@
-import React, { Component, useEffect } from "react";
+import React, { Component } from "react";
 
 // Import your audio file
 import song from "../../Assets/[Royalty Free] Background music for Real Estate presentation & Corporate videos (online-audio-converter.com).mp3";
@@ -50,19 +50,15 @@ class Test extends Component {
 
         return (
             <div>
-                {/* Show state of song on website */}
-                <p>
-                    {this.state.isPlaying ?
-                        "Song is Playing" :
-                        "Song is Paused"}
-                </p>
 
-                {/* Button to call our main function */}
-                <button onClick={this.playPause}>
+                <button type="button" class="btn " onClick={this.playPause} >
                     {this.state.isPlaying ?
                         "Song is Playing" :
                         "Song is Paused"}
+
                 </button>
+
+
             </div>
         );
     }

@@ -5,7 +5,7 @@ const Footer = () => {
         <div className='footer bg-dark text-center'>
             <div className='d-flex justify-content-between container p-4 text-white align-items-center row mx-auto'>
                 <div className='col-md-4 col-12 my-2'>
-                    <p className='p-0 m-0'>© 2020 Yeasin Rahaman, All rights reserved.</p>
+                    <p className='p-0 m-0'>© 2022 Yeasin Rahaman, All rights reserved.</p>
                 </div>
                 <div className='col-md-4 col-12 my-2'>
                     <div >

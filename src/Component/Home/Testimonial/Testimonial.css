@@ -32,7 +32,7 @@
     background-image: url("./../../../Assets/Images/2123123.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;
+    height: 100%;
     color: white;
     display: flex;
     align-items: center;

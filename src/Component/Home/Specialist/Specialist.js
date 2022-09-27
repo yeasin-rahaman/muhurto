@@ -9,10 +9,11 @@ import Image6 from './../../../Assets/Images/_O7A1222.jpg'
 const Specialist = () => {
     return (
         <div className='specialist '>
-            <div className="container my-5">
+            <div className="container my-5" data-aos="fade-up">
                 <div className='row my-5' >
                     <div className="col-12 col-md-6 ">
                         <h1>SPECIALIZATION</h1>
+                        <hr />
                     </div>
                     {/* <div className="col-12 col-md-6">
                         <p>For a moment, time stands still—A memory is captured, a glance is immortalized and pure magic arises.
@@ -23,15 +24,15 @@ const Specialist = () => {
                 <div>
                     <div className="row row-cols-1 row-cols-md-3 g-4 my-5">
 
-                        <div className="col"  >
-                            <img src={Image1} className="img-fluid rounded w-100" alt="Photography" />
+                        <div className="col zoom"  >
+                            <img src={Image1} className="img-fluid rounded w-100 " alt="Photography" />
                             <h5 >Photography </h5>
                         </div>
-                        <div className="col"  >
+                        <div className="col zoom"  >
                             <img src={Image2} className="img-fluid rounded w-100" alt="Film Making" />
                             <h5 >Film Making</h5>
                         </div>
-                        <div className="col"  >
+                        <div className="col zoom"  >
                             <img src={Image3} className="img-fluid rounded w-100" alt="Consultancy" />
                             <h5 >Consultancy</h5>
                         </div>

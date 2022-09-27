@@ -3,7 +3,6 @@ import Image1 from './../../../Assets/Images/about-us-img-1.jpg'
 import Image2 from './../../../Assets/Images/about-us-img-2.jpg'
 import Image3 from './../../../Assets/Images/about-us-img-3.jpg'
 import './BeyondTheOrdinary.css'
-import Modal from '../../Test/Modal';
 const BeyondTheOrdinary = () => {
     return (
         <div className='BeyondTheOrdinary'>

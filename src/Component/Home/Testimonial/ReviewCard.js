@@ -1,6 +1,6 @@
 import React from 'react';
 import StarRatings from 'react-star-ratings';
-import reviewImg from './../../../Assets/Images/google.png'
+import reviewImg from './../../../Assets/Images/testtesio.png'
 
 const ReviewCard = ({ data }) => {
     return (
@@ -18,8 +18,8 @@ const ReviewCard = ({ data }) => {
                         starRatedColor="goldenrod"
 
                         rating={data.rating}
-                        starDimension="40px"
-                        starSpacing="15px"
+                        starDimension="30px"
+                        starSpacing="10px"
                     />
                 </div>
                 <div ><p className='text-sm my-5'>{data.review}

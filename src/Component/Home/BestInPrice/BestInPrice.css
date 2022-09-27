@@ -9,9 +9,12 @@
     background-size: cover;
 }
 
+
+
 .packages {
     padding: 4rem;
     background: rgba(0, 0, 0, 0.5);
+    border-radius: 2%;
 }
 
 .packages h3 {
@@ -25,4 +28,12 @@
 .packages p {
     font-size: 1rem;
     padding: 0.5rem;
+}
+
+.packages:hover {
+    transform: scale(1.1);
+
+    background: #A37E2C;
+    border-radius: 2%;
+
 }

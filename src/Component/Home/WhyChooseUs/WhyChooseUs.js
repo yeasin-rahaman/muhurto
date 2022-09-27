@@ -7,6 +7,7 @@ const WhyChooseUs = () => {
                 <div className='row my-5' >
                     <div className="col-12 col-md-6 ">
                         <h1>WHY CHOOSE US ?</h1>
+                        <hr />
                     </div>
                     <div className="col-12 col-md-6">
                         <p>Our collection of photography was cultivated over the course of 10 years. This business is a dream come true and one that (many years ago) felt quite impossible. Our hope is that these images inspire you to have your story uniquely told through photography with us as your photographer

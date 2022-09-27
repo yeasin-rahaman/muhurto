@@ -13,3 +13,10 @@
     text-align: justify;
     text-justify: inter-word;
 }
+
+hr {
+    width: 50%;
+    opacity: 1;
+    border: solid #A37E2C;
+    border-radius: 5px;
+}

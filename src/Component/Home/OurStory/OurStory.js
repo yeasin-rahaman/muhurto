@@ -6,11 +6,13 @@ import Image3 from './../../../Assets/Images/about-us-img-3.jpg'
 const OurStory = () => {
     return (
         <div className='OurStory '>
-            <div className="container my-5">
+
+            <div className="container my-5" data-aos="fade-up">
                 <div className="row  align-items-center">
 
-                    <div className="col-md-6 col-12 my-5">
 
+                    <div className="col-md-6 col-12 my-5">
+                        <hr />
                         <h2>Photography takes an instant out of time, altering life by holding it still</h2>
                         <br />
                         <div className='pe-5'>
@@ -30,20 +32,20 @@ const OurStory = () => {
 
                             </p>
                             <br />
-                            <h3 className='d-flex justify-content-end'>About Us</h3>
+
                         </div>
                     </div>
                     <div className="col-md-6">
 
                         <div className="row">
                             <div className="col-12 mt-4">
-                                <img className='img-fluid' src={Image1} alt="" />
+                                <img className='img-fluid zoom' src={Image1} alt="" />
                             </div>
                             <div className="col-6 mt-4">
-                                <img className='img-fluid' src={Image2} alt="" />
+                                <img className='img-fluid zoom' src={Image2} alt="" />
                             </div>
                             <div className="col-6 mt-4">
-                                <img className='img-fluid' src={Image3} alt="" />
+                                <img className='img-fluid zoom' src={Image3} alt="" />
                             </div>
                         </div>
                     </div>
