@@ -13,7 +13,7 @@ const OurStory = () => {
 
                     <div className="col-md-6 col-12 my-5">
                         <hr />
-                        <h2>Photography takes an instant out of time, altering life by holding it still</h2>
+                        <h2  >PHOTOGRAPHY TAKES AN INSTANT OUT OF TIME, ALTERING LIFE BY HOLDING IT STILL</h2>
                         <br />
                         <div className='pe-5'>
 
@@ -32,7 +32,7 @@ const OurStory = () => {
 
                             </p>
                             <br />
-
+                            <h3 className='d-flex justify-content-end'>About Us</h3>
                         </div>
                     </div>
                     <div className="col-md-6">

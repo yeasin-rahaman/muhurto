@@ -33,17 +33,17 @@ const Portfolio = () => {
 
                     <div className="col-md-6 col-12 my-5">
                         <hr />
-                        <h2>In photography there is a reality so subtle that it becomes more real than reality
-
+                        <h2>IN PHOTOGRAPHY THERE IS A REALITY SO SUBTLE THAT IT BECOMES MORE REAL THAN REALITY
                         </h2>
                         <br />
                         <p>Our goal is to use our skills and passions to leave the world a bit more beautiful than we found it—whether that’s telling the story of a once-in-a-lifetime wedding day, or sharing images that shed light on issues of global importance—it’s the work we’re honoured to do.
                         </p>
                         <br />
-                        <div className='d-flex justify-content-end' data-bs-toggle="modal"
+                        <div className='d-flex justify-content-end d-flex align-items-center' data-bs-toggle="modal"
                             data-bs-target="#EditModal">
                             <h3 >Portfolio
                             </h3>
+                            <h3> <i class="fa-solid fa-angles-right ms-2 brandColor"></i></h3>
                         </div>
 
                         {/* <button data-bs-toggle="modal"
