@@ -17,11 +17,9 @@ const BestInPrice = () => {
         <div className='BestInPrice'>
             <div className="container my-5" data-aos="fade-up">
                 <div className='row my-5' >
-
                     <div className="col-12 col-md-6 ">
-
                         <h1>BEST IN PRICE</h1>
-                        <hr />
+                        <hr data-aos="fade-right" />
                     </div>
                     <div className="col-12 col-md-6">
                         <p>We believe in capturing a moment in a timeless way, so we set trends aside with an elegant, classic, and clean style captured on pictures with our premium packages.

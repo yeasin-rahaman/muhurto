@@ -13,7 +13,7 @@ const Specialist = () => {
                 <div className='row my-5' >
                     <div className="col-12 col-md-6 ">
                         <h1>SPECIALIZATION</h1>
-                        <hr />
+                        <hr data-aos="fade-right" />
                     </div>
                     {/* <div className="col-12 col-md-6">
                         <p>For a moment, time stands still—A memory is captured, a glance is immortalized and pure magic arises.

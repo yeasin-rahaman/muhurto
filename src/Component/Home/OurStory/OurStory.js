@@ -8,14 +8,14 @@ const OurStory = () => {
         <div className='OurStory '>
 
             <div className="container my-5" data-aos="fade-up">
-                <div className="row  align-items-center">
+                <div className="row  align-items-center aboutUsContainer">
 
 
                     <div className="col-md-6 col-12 my-5">
-                        <hr />
+                        <hr data-aos="fade-right" />
                         <h2  >PHOTOGRAPHY TAKES AN INSTANT OUT OF TIME, ALTERING LIFE BY HOLDING IT STILL</h2>
                         <br />
-                        <div className='pe-5'>
+                        <div className='pe-5  aboutUsText'>
 
                             <p>
                                 Muhurto Bangladesh has spent nearly 10 years shooting private weddings and events nationwide. We believe that it’s an honour witnessing and documenting the joining of two families and the emotions and traditions that go along with this occasion.
@@ -35,7 +35,8 @@ const OurStory = () => {
                             <h3 className='d-flex justify-content-end'>About Us</h3>
                         </div>
                     </div>
-                    <div className="col-md-6">
+
+                    <div className="col-md-6 col-12">
 
                         <div className="row">
                             <div className="col-12 mt-4">

@@ -15,7 +15,8 @@
 
 .zoom:hover {
     transform: scale(1.1);
-    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transition: 0.3s;
+
 }
 
 /* mobile devices */
@@ -39,16 +40,16 @@
         background-size: cover;
     }
 
-    .WhyChooseUs {
-        background-image: url("./../../../Assets/Images/2123123.jpg");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        height: 100% !important;
-        color: white;
+    .OurStory .aboutUsContainer {
         display: flex;
-        align-items: center;
-        background-size: cover;
+        flex-direction: column-reverse;
     }
+
+    .aboutUsText {
+        padding: 0 !important;
+    }
+
+
 
     .Testimonial {
         background-image: url("./../../../Assets/Images/testimonialMobile.jpg") !important;
@@ -107,3 +108,18 @@
 /* tablate devices */
 
 @media only screen and (min-width:689px) and (max-width:992px) {}
+
+/* small monitor  */
+@media only screen and (max-width:1480px) {
+    .OurStory {
+        height: 100% !important;
+    }
+
+    .WhyChooseUs {
+        height: 100% !important;
+    }
+
+    .Testimonial {
+        height: 100% !important;
+    }
+}

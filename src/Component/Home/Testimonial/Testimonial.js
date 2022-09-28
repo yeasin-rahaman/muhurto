@@ -49,7 +49,7 @@ const Testimonial = () => {
                 <div className="my-5">
                     <div className='d-flex justify-content-center '>
                         <h1>Customer Reviews
-                            <hr className='w-100' />
+                            <hr className='w-100' data-aos="fade-down" />
                         </h1>
 
                     </div>

@@ -9,6 +9,12 @@
     align-items: center;
 }
 
+.contact {
+    background-image: url(./../../../Assets/Images/footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .contact a {
     color: white;
     text-decoration: none;
