@@ -2,9 +2,7 @@ import React from 'react';
 import './Contact.css'
 import qr from './../../../Assets/Images/testQR.png'
 const Contact = () => {
-    const mapLocation = 'https://maps.google.com/maps?q=muhurtoo&t=&z=13&ie=UTF8&iwloc=&output=embed'
-
-
+    const mapLocation = 'https://maps.google.com/maps?q=Muhurto%20Bangladesh&t=&z=15&ie=UTF8&iwloc=&output=embed'
 
 
 
@@ -19,31 +17,27 @@ const Contact = () => {
                     <div className='' >
                         <div className='mx-auto  py-5'>
                             <div>
-                                <a href="mailto: info@muhurtobangladesh.com"> <p><i class="fa-solid fa-house"></i>info@muhurtobangladesh.com</p></a>
+                                <a href="mailto: info@muhurtobangladesh.com" target="_blank" rel="noreferrer"> <p><i class="fa-solid fa-house"></i>info@muhurtobangladesh.com</p></a>
 
-                                <a href="tel:+8801706391888"> <p><i class="fa-solid fa-phone"></i>+880 1706391888</p></a>
+                                <a href="tel:+8801706391888" target="_blank" rel="noreferrer"> <p><i class="fa-solid fa-phone"></i>+880 1706391888</p></a>
 
-                                <a href="tel:+8801706391888"> <p><i class="fa-solid fa-location-dot"></i>+Jagannath Shaha Road, Dhaka
+                                <a href="https://goo.gl/maps/um5uaDuLznHhxyzG9" target="_blank" rel="noreferrer"> <p><i class="fa-solid fa-location-dot"></i>House 18, Road 2, Future Housing,
+
+                                    Basila, Dhaka
                                 </p></a>
                             </div>
-
-
                             <div className=' icons text-center'>
-                                <i class="fa-brands fa-facebook"></i>
-                                <i class="fa-brands fa-instagram"></i>
-                                <i class="fa-solid fa-phone"></i>
-                                <i class="fa-solid fa-envelope"></i>
-                                <i class="fa-solid fa-earth-americas"></i>
+                                <a href="https://www.instagram.com/muhurto_bangladesh" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/muhurtooo" target="_blank" rel="noreferrer"> <i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://telegram.me/muhurtobangladesh" target="_blank" rel="noreferrer"> <i class="fa-brands fa-telegram"></i></a>
+                                <a href="https://wa.me/01706391888" target="_blank" rel="noreferrer" > <i class="fa-brands fa-whatsapp"></i></a>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
                 <div className="col-12 col-md-2 ">
                     <div className=' py-5'>
                         <img src={qr} className='img-fluid' alt="" />
-
                     </div>
                 </div>
             </div>

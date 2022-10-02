@@ -22,13 +22,13 @@ const BeyondTheOrdinary = () => {
                         <div className="row">
 
                             <div className="col-12 mt-4">
-                                <img className='img-fluid' src={Image1} alt="" />
+                                <img className='img-fluid rounded' src={Image1} alt="" />
                             </div>
                             <div className="col-6 mt-4">
-                                <img className='img-fluid' src={Image2} alt="" />
+                                <img className='img-fluid rounded' src={Image2} alt="" />
                             </div>
                             <div className="col-6 mt-4">
-                                <img className='img-fluid' src={Image3} alt="" />
+                                <img className='img-fluid rounded' src={Image3} alt="" />
                             </div>
                         </div>
                     </div>

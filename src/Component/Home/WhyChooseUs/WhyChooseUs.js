@@ -33,7 +33,8 @@ const WhyChooseUs = () => {
                         <div className="col d-flex align-items-center my-5"   >
                             <div className='p-4'>
                                 <span>
-                                    <i aria-hidden="true" class="fas fa-user-graduate"></i>
+
+                                    <i class="fa-regular fa-gem"></i>
                                 </span>
                             </div>
                             <div>
@@ -68,7 +69,8 @@ const WhyChooseUs = () => {
                         <div className="col d-flex align-items-center my-5"   >
                             <div className='p-4'>
                                 <span>
-                                    <i aria-hidden="true" class="fas fa-film"></i>
+
+                                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
                                 </span>
                             </div>
                             <div>
@@ -79,7 +81,7 @@ const WhyChooseUs = () => {
                         <div className="col d-flex align-items-center my-5"   >
                             <div className='p-4'>
                                 <span>
-                                    <i aria-hidden="true" class="fas fa-umbrella-beach"></i>
+                                    <i class="fa-solid fa-clock"></i>
                                 </span>
                             </div>
                             <div>

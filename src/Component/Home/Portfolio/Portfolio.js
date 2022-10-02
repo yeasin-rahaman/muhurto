@@ -17,16 +17,16 @@ const Portfolio = () => {
                             data-bs-target="#EditModal">
 
                             <div className="col-6 ">
-                                <img className='img-fluid mt-4 zoom' src={Image1} alt="" />
+                                <img className='img-fluid mt-4 rounded zoom' src={Image1} alt="" />
                             </div>
                             <div className="col-6 ">
-                                <img className='img-fluid mt-4 zoom' src={Image2} alt="" />
+                                <img className='img-fluid mt-4 rounded zoom' src={Image2} alt="" />
                             </div>
                             <div className="col-6 ">
-                                <img className='img-fluid mt-4 zoom' src={Image3} alt="" />
+                                <img className='img-fluid mt-4 rounded zoom' src={Image3} alt="" />
                             </div>
                             <div className="col-6 ">
-                                <img className='img-fluid mt-4 zoom' src={Image4} alt="" />
+                                <img className='img-fluid mt-4 rounded zoom' src={Image4} alt="" />
                             </div>
                         </div>
                     </div>

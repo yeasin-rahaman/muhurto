@@ -15,6 +15,30 @@
 
 }
 
+.Portfolio .zoom {
+    cursor: pointer;
+
+}
+
+.Portfolio .zoom h3 {
+    cursor: pointer;
+
+}
+
+.Portfolio .zoom:hover h3 {
+    color: #a37e2c;
+    cursor: pointer;
+    font-weight: 700;
+
+
+}
+
+.Portfolio .zoom:hover i {
+    color: white;
+
+
+}
+
 
 .brandColor {
     color: #a37e2c;

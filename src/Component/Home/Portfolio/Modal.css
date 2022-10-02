@@ -1,5 +1,5 @@
 .image-gallery-content .image-gallery-slide .image-gallery-image {
-    max-height: calc(100vh - 10rem) !important;
+    max-height: calc(100vh - 13rem) !important;
 }
 
 .portfolioModal .bg-dark {

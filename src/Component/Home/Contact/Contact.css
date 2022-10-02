@@ -2,6 +2,7 @@
     width: 100%;
     height: 30rem;
 
+
 }
 
 .contact {
@@ -25,6 +26,23 @@
 .contact i {
     padding-right: 1rem;
 
+
+}
+
+.icons a:hover i {
+    transform: scale(1.3);
+    transition: 0.1s;
+    color: #A37E2C;
+
+}
+
+.contact a :hover {
+    /* transform: scale(1.1); */
+    /* transition: 0.3s; */
+    color: #A37E2C;
+    font-weight: 700;
+    cursor: pointer;
+
 }
 
 .contact a h5 {
@@ -34,4 +52,8 @@
 
 .icons {
     font-size: 1.5rem;
+}
+
+.icons {
+    font-size: 1.8rem;
 }

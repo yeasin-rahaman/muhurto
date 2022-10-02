@@ -10,22 +10,22 @@ const Footer = () => {
                 <div className='col-md-4 col-12 my-2'>
                     <div >
                         <span>
-                            <a target="_blank">
+                            <a href='/*' target="_blank" rel="noreferrer">
                                 <i class="fab px-4 fa-twitter"></i>
                             </a>
                         </span>
                         <span >
-                            <a target="_blank">
+                            <a href='https://www.facebook.com/muhurtooo' target="_blank" rel="noreferrer" >
                                 <i class="fab px-4 fa-facebook"></i>
                             </a>
                         </span>
                         <span >
-                            <a target="_blank">
+                            <a href='https://www.instagram.com/muhurto_bangladesh' target="_blank" rel="noreferrer">
                                 <i class="fab px-4 fa-instagram"></i>
                             </a>
                         </span>
                         <span >
-                            <a target="_blank" href='/home'>
+                            <a target="_blank" href='/home' rel="noreferrer">
                                 <i class="fab px-4 fa-youtube"></i>
                             </a>
                         </span>
@@ -53,3 +53,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+

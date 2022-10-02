@@ -1,7 +1,7 @@
 import React from 'react';
 import './BestInPrice.css'
 import EverAfterModal from "./EverAfterModal";
-import BronzeModal from "./BronzeModal";
+import MidnightInParisModal from "./MidnightInParisModal";
 import RichCrazyAsiansModal from "./RichCrazyAsiansModal";
 import CasablancaModal from "./CasablancaModal";
 import ChoseHowYouWantItModal from "./ChoseHowYouWantItModal";
@@ -45,7 +45,7 @@ const BestInPrice = () => {
 
                         </div>
 
-                        <div className="col d-flex justify-content-center mt-5" data-bs-toggle="modal" data-bs-target="#BronzeModal"  >
+                        <div className="col d-flex justify-content-center mt-5" data-bs-toggle="modal" data-bs-target="#MidnightInParisModal"  >
                             <div className='text-center packages w-100'>
                                 <img src={midnight} className="img-fluid p-5" alt="" />
                                 <br />
@@ -124,7 +124,7 @@ const BestInPrice = () => {
 
 
             <EverAfterModal></EverAfterModal>
-            <BronzeModal></BronzeModal>
+            <MidnightInParisModal></MidnightInParisModal>
             <RichCrazyAsiansModal></RichCrazyAsiansModal>
             <CasablancaModal></CasablancaModal>
             <ChoseHowYouWantItModal></ChoseHowYouWantItModal>
