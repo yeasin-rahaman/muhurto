@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css'
-import qr from './../../../Assets/Images/testQR.png'
+import qr from './../../../Assets/Images/qr-code.png'
 const Contact = () => {
     const mapLocation = 'https://maps.google.com/maps?q=Muhurto%20Bangladesh&t=&z=15&ie=UTF8&iwloc=&output=embed'
 
@@ -30,7 +30,7 @@ const Contact = () => {
                                 <a href="https://www.instagram.com/muhurto_bangladesh" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram"></i></a>
                                 <a href="https://www.facebook.com/muhurtooo" target="_blank" rel="noreferrer"> <i class="fa-brands fa-facebook"></i></a>
                                 <a href="https://telegram.me/muhurtobangladesh" target="_blank" rel="noreferrer"> <i class="fa-brands fa-telegram"></i></a>
-                                <a href="https://wa.me/01706391888" target="_blank" rel="noreferrer" > <i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="https://wa.me/+8801706391888" target="_blank" rel="noreferrer" > <i class="fa-brands fa-whatsapp"></i></a>
                             </div>
                         </div>
                     </div>

@@ -26,7 +26,6 @@
 
     .HeroSection {
         background-image: url("./../../../Assets/Images/herosectionMobile.jpg");
-
     }
 
     .OurStory {
@@ -107,7 +106,85 @@
 
 /* tablate devices */
 
-@media only screen and (min-width:689px) and (max-width:992px) {}
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    .HeroSection {
+        background-image: url("./../../../Assets/Images/herosectionMobile.jpg");
+
+    }
+
+    .OurStory {
+        background-image: url("./../../../Assets/Images/AboutusMobile.jpg") !important;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100% !important;
+        color: white;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+    }
+
+
+    .aboutUsText {
+        padding: 0 !important;
+    }
+
+
+
+    .Testimonial {
+        background-image: url("./../../../Assets/Images/testimonialMobile.jpg") !important;
+
+        height: 100% !important;
+
+    }
+
+    .BestInPrice {
+        background-image: url("./../../../Assets/Images/bestInPriceMobile.jpg") !important;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100% !important;
+        color: white;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+    }
+
+    .WhyChooseUs {
+        background-image: url("./../../../Assets/Images/whyChoseUsMobile.jpg") !important;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100% !important;
+        color: white;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+    }
+
+    .specialist {
+        background-image: url("./../../../Assets/Images/specializationMobile.jpg") !important;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100% !important;
+        color: white;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+    }
+
+
+
+    .Portfolio {
+        background-image: url("./../../../Assets/Images/1253123.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100% !important;
+        color: white;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+    }
+
+}
 
 /* small monitor  */
 @media only screen and (max-width:1480px) {

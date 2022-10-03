@@ -1,5 +1,11 @@
 import React from 'react';
 import './WhyChooseUs.css'
+import icon1 from './../../../Assets/Images/Icons/1.png'
+import icon2 from './../../../Assets/Images/Icons/2.png'
+import icon3 from './../../../Assets/Images/Icons/3.png'
+import icon4 from './../../../Assets/Images/Icons/4.png'
+import icon5 from './../../../Assets/Images/Icons/5.png'
+import icon6 from './../../../Assets/Images/Icons/4.png'
 const WhyChooseUs = () => {
     return (
         <div className='WhyChooseUs'>
@@ -19,9 +25,9 @@ const WhyChooseUs = () => {
                     <div className="row row-cols-1 row-cols-md-3 g-4 my-5">
 
                         <div className="col d-flex align-items-center my-5"   >
-                            <div className='p-4'>
+                            <div className='pe-3'>
                                 <span>
-                                    <i aria-hidden="true" class="fas fa-road"></i>
+                                    <img src={icon1} className="img-fluid" alt="" />
                                 </span>
                             </div>
                             <div>
@@ -31,10 +37,9 @@ const WhyChooseUs = () => {
                             </div>
                         </div>
                         <div className="col d-flex align-items-center my-5"   >
-                            <div className='p-4'>
+                            <div className='pe-3'>
                                 <span>
-
-                                    <i class="fa-regular fa-gem"></i>
+                                    <img src={icon2} className="img-fluid" alt="" />
                                 </span>
                             </div>
                             <div>
@@ -44,9 +49,9 @@ const WhyChooseUs = () => {
                             </div>
                         </div>
                         <div className="col d-flex align-items-center my-5"   >
-                            <div className='p-4'>
+                            <div className='pe-3'>
                                 <span>
-                                    <i aria-hidden="true" class="fas fa-medal"></i>
+                                    <img src={icon3} className="img-fluid" alt="" />
                                 </span>
                             </div>
                             <div>
@@ -55,9 +60,9 @@ const WhyChooseUs = () => {
                             </div>
                         </div>
                         <div className="col d-flex align-items-center my-5"   >
-                            <div className='p-4'>
+                            <div className='pe-3'>
                                 <span>
-                                    <i aria-hidden="true" class="fas fa-photo-video"></i>
+                                    <img src={icon4} className="img-fluid" alt="" />
                                 </span>
                             </div>
                             <div>
@@ -67,10 +72,9 @@ const WhyChooseUs = () => {
                             </div>
                         </div>
                         <div className="col d-flex align-items-center my-5"   >
-                            <div className='p-4'>
+                            <div className='pe-3'>
                                 <span>
-
-                                    <i class="fa-solid fa-magnifying-glass-dollar"></i>
+                                    <img src={icon5} className="img-fluid" alt="" />
                                 </span>
                             </div>
                             <div>
@@ -79,9 +83,9 @@ const WhyChooseUs = () => {
                             </div>
                         </div>
                         <div className="col d-flex align-items-center my-5"   >
-                            <div className='p-4'>
+                            <div className='pe-3'>
                                 <span>
-                                    <i class="fa-solid fa-clock"></i>
+                                    <img src={icon6} className="img-fluid" alt="" />
                                 </span>
                             </div>
                             <div>
