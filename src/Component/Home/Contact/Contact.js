@@ -27,8 +27,11 @@ const Contact = () => {
                                 </p></a>
                             </div>
                             <div className=' icons text-center'>
-                                <a href="https://www.instagram.com/muhurto_bangladesh" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram"></i></a>
                                 <a href="https://www.facebook.com/muhurtooo" target="_blank" rel="noreferrer"> <i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/muhurto_bangladesh" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                                <a target="_blank" href='https://www.youtube.com/channel/UCL9_oGUICgMl0lrWL-VLNEg' rel="noreferrer">
+                                    <i class="fab px-4 fa-youtube"></i></a>
+
                                 <a href="https://telegram.me/muhurtobangladesh" target="_blank" rel="noreferrer"> <i class="fa-brands fa-telegram"></i></a>
                                 <a href="https://wa.me/+8801706391888" target="_blank" rel="noreferrer" > <i class="fa-brands fa-whatsapp"></i></a>
                             </div>
@@ -37,7 +40,7 @@ const Contact = () => {
                 </div>
                 <div className="col-12 col-md-2 ">
                     <div className=' py-5'>
-                        <img src={qr} className='img-fluid' alt="" />
+                        <img src={qr} className='img-fluid p-4' alt="" />
                     </div>
                 </div>
             </div>

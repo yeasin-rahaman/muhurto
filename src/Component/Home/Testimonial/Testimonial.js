@@ -31,14 +31,15 @@ const Testimonial = () => {
             id: 3,
             name: 'Zeyad Darwesh',
             rating: 5,
-            review: ' am very, very picky. I have talked to many excellent photographers and have explained our wedding marathon. Most photographers were not up to it, or at least not the way I liked it.  It was a great pleasure a privilege to have Muhurto to cover our wedding. I am very happy with my decision and not only would I hire them again for the wedding, but also for different future events that hopefully come up.”'
+            review: 'I am very, very picky. I have talked to many excellent photographers and have explained our wedding marathon. Most photographers were not up to it, or at least not the way I liked it.  It was a great pleasure a privilege to have Muhurto to cover our wedding. I am very happy with my decision and not only would I hire them again for the wedding, but also for different future events that hopefully come up.”'
         },
         {
             id: 4,
-            name: 'Ajay Kumar',
+            name: 'Moury Ahmed',
             rating: 5,
-            review: 'Honest guy, affordable price, happy for my wife\'s photos'
-        },
+            review: 'Muhurtooo bangladesh is simply AMAZING! They really are more than photographers. From the beginning through to the end they offered endless support,advice and guidance. On the day itself me and my husband felt in proper hands and they created a friendly environment to ease us as we both are camera-shy There experience and professionalism shines through, allowing us to relax and have the best day of our lives ! We got our photos within 10 days of the event  and couldn’t be more happier with the results, they are seriously talented and genuinely love what they do ! If you’re thinking about booking them for your wedding or any event, DO IT!!! You won’t be disappointed ! They have captured memories that we will cherish forever. Thank u so much Muhurtooo Bangladesh team '
+        }
+
 
     ]
     return (

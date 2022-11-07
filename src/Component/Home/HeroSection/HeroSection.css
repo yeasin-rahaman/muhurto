@@ -13,6 +13,12 @@
     background: rgba(0, 0, 0, 0.5)
 }
 
+.heroText h3 {
+    letter-spacing: .1rem;
+
+    font-weight: 300;
+}
+
 .zoom:hover {
     transform: scale(1.1);
     transition: 0.3s;

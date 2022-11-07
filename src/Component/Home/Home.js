@@ -24,7 +24,7 @@ const Home = () => {
             <BestInPrice></BestInPrice>
             {/* <BeyondTheOrdinary></BeyondTheOrdinary> */}
             <Contact></Contact>
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
         </div>
     );
 };

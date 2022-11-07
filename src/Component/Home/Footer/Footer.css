@@ -26,3 +26,19 @@ a:active {
 
 
 }
+
+.copyright {
+    font-size: 1rem !important;
+}
+
+.copyright a :hover {
+    transform: scale(1.5);
+    /* transition: 0.1s; */
+    color: #A37E2C;
+
+
+}
+
+.option1 {
+    background-image: url(./../../../Assets/Images/Icons/1.png);
+}

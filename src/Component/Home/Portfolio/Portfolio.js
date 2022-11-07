@@ -13,7 +13,7 @@ const Portfolio = () => {
 
                     <div className="col-md-6 col-12">
 
-                        <div className="row" data-bs-toggle="modal"
+                        <div className="row pe-5" data-bs-toggle="modal"
                             data-bs-target="#EditModal">
 
                             <div className="col-6 ">
@@ -31,20 +31,24 @@ const Portfolio = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-6 col-12 my-5">
+                    <div className="col-md-6 col-12 my-5 ">
                         <hr data-aos="fade-left" />
                         <h2>IN PHOTOGRAPHY THERE IS A REALITY SO SUBTLE THAT IT BECOMES MORE REAL THAN REALITY
                         </h2>
                         <br />
-                        <p>Our goal is to use our skills and passions to leave the world a bit more beautiful than we found it—whether that’s telling the story of a once-in-a-lifetime wedding day, or sharing images that shed light on issues of global importance—it’s the work we’re honoured to do.
+                        <p>Our Goal is to use our Skills and Passions to leave the world a bit more beautiful than we found it—whether that’s telling the story of a once-in-a-lifetime wedding day, or sharing Photographs that shed light on issues of global importance—it’s the work we’re honoured to do.
                         </p>
                         <br />
-                        <div className='d-flex justify-content-end d-flex align-items-center zoom' data-bs-toggle="modal"
+                        <div className='d-flex mt-5 justify-content-end d-flex align-items-center zoom' data-bs-toggle="modal"
                             data-bs-target="#EditModal">
+                            <div className='mt-2'></div>
                             <h3 >Portfolio
                             </h3>
                             <h3> <i class="fa-solid fa-angles-right ms-2 brandColor"></i></h3>
                         </div>
+                        {/* <div className='d-flex justify-content-end '>
+                            <hr className='d-flex justify-content-end w-50 downHR' data-aos="fade-right" />
+                        </div> */}
 
                         {/* <button data-bs-toggle="modal"
                             data-bs-target="#EditModal"

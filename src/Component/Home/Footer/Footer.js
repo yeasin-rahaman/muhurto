@@ -1,11 +1,12 @@
 import React from 'react';
 import './Footer.css'
+import PrivacyAndPolicy from './PrivacyAndPolicy';
 const Footer = () => {
     return (
         <div className='footer bg-dark text-center'>
             <div className='d-flex justify-content-between container p-4 text-white align-items-center row mx-auto'>
                 <div className='col-md-4 col-12 my-2'>
-                    <p className='p-0 m-0'>© 2022  <a className='text-decoration-none' href='http://yeasinrahaman.netlify.app/' target="_blank" rel="noreferrer">Yeasin Rahaman</a>, All rights reserved.</p>
+                    {/* <p className='p-0 m-0'>© 2022  <a className='text-decoration-none copyright' href='http://yeasinrahaman.netlify.app/' target="_blank" rel="noreferrer">Yeasin Rahaman</a>, All rights reserved.</p> */}
                 </div>
                 <div className='col-md-4 col-12 my-2'>
                     <div >
@@ -32,10 +33,8 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='col-md-4 col-12 my-2'>
-                    <div className='footerNavigation'>
-                        <span>
-                            Home
-                        </span>
+                    {/* <div className='footerNavigation'>
+
                         <span >
                             Services
                         </span>
@@ -45,9 +44,13 @@ const Footer = () => {
                         <span >
                             Portfolio
                         </span>
-                    </div>
+                        <span data-bs-toggle="modal" data-bs-target="#PrivacyAndPolicyModal" >
+                            Privacy & Policy
+                        </span>
+                    </div> */}
                 </div>
             </div >
+            <PrivacyAndPolicy></PrivacyAndPolicy>
         </div>
     );
 };

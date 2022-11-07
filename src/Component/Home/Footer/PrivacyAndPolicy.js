@@ -1,9 +1,9 @@
 import React from 'react';
-import EverAfter from './../../../Assets/Images/casablanka.png'
-const CasablancaModal = () => {
+
+const PrivacyAndPolicy = () => {
     return (
         <div className="priceModal">
-            <div class="modal fade" id="CasablancaModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="CasablancaModalLabel" aria-hidden="true">
+            <div class="modal fade" id="PrivacyAndPolicyModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="PrivacyAndPolicyModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered  modal-xl">
                     <div class="modal-content">
                         <div class="modal-header bg-dark ">
@@ -13,8 +13,8 @@ const CasablancaModal = () => {
                         <div class="modal-body bg-dark">
                             <div class="container-fluid">
                                 <div class="row align-items-center">
-                                    <div class="col-md-6 col-12"><img src={EverAfter} className='img-fluid' alt="" /></div>
-                                    <div class="col-md-6 ms-auto">
+
+                                    <div class="col-md-12 ms-auto">
                                         <h3>𝓒𝓪𝓼𝓪𝓫𝓵𝓪𝓷𝓬𝓪</h3>
                                         <p>This package, We recommend for any events where the guest number should not be more than 600 people.
                                         </p>
@@ -81,4 +81,4 @@ const CasablancaModal = () => {
     );
 };
 
-export default CasablancaModal;
+export default PrivacyAndPolicy;

@@ -9,7 +9,6 @@
     background-size: cover;
 }
 
-.WhyChooseUs i {
-    font-size: 3rem;
-    color: #A37E2C;
+.WhyChooseUs img {
+    max-width: 4rem;
 }

@@ -23,3 +23,8 @@ hr {
     border: solid #A37E2C;
     border-radius: 5px;
 }
+
+.downHR {
+    width: 15% !important;
+    margin-top: 0.5rem;
+}

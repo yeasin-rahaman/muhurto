@@ -25,32 +25,32 @@ const Specialist = () => {
                     <div className="row row-cols-1 row-cols-md-3 g-4 my-5">
 
                         <div className="col zoom"  >
-                            <img src={Image1} className="img-fluid rounded w-100 " alt="Photography" />
+                            <img src={Image1} className="img-fluid rounded w-100 my-3 " alt="Photography" />
                             <h5 >Photography </h5>
                         </div>
                         <div className="col zoom"  >
-                            <img src={Image2} className="img-fluid rounded w-100" alt="Film Making" />
+                            <img src={Image2} className="img-fluid rounded w-100 my-3" alt="Film Making" />
                             <h5 >Film Making</h5>
                         </div>
                         <div className="col zoom"  >
-                            <img src={Image3} className="img-fluid rounded w-100" alt="Consultancy" />
+                            <img src={Image3} className="img-fluid rounded w-100 my-3" alt="Consultancy" />
                             <h5 >Consultancy</h5>
                         </div>
                         {/* <div className="col"  >
-                            <img src={Image4} className="img-fluid rounded w-100" alt="..." />
+                            <img src={Image4} className="img-fluid rounded w-100 my-3" alt="..." />
                             <h5 >OBJECT / PRODUCTS</h5>
                         </div>
                         <div className="col"  >
-                            <img src={Image5} className="img-fluid rounded w-100" alt="..." />
+                            <img src={Image5} className="img-fluid rounded w-100 my-3" alt="..." />
                             <h5 >CORPORATE FILMING</h5>
                         </div>
                         <div className="col"  >
-                            <img src={Image6} className="img-fluid rounded w-100" alt="..." />
+                            <img src={Image6} className="img-fluid rounded w-100 my-3" alt="..." />
                             <h5 >PETS</h5>
                         </div> */}
                     </div>
                     <div className="col-12 col-md-12 text-align-center ">
-                        <p>For a moment, time stands still—A memory is captured, a glance is immortalized and pure magic arises.
+                        <p>For a moment, time stands still— A memory is captured, a glance is Immortalized & Pure magic arises.
                         </p>
                     </div>
                 </div>

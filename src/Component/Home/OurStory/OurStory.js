@@ -26,13 +26,13 @@ const OurStory = () => {
                             </p>
                             <br />
                             <p>
-                                Spontaneity. compositional, lighting, and colour factors. A stunning, engaging shot frequently comes together in the flash of an eye. Muhurto is not only skilled at capturing that unique moment in time, but also understanding what that moment and that photograph mean to a couple in the context of a lifetime. We intend to ensure that you can relive this magical day through our photographs.
-
-
-
+                                Spontaneity. compositional, lighting, and colour factors. A stunning, engaging shot frequently comes together in the flash of an eye. Muhurto is skilled at capturing that unique moment in time and understanding what that moment and that photograph mean to a couple in the context of a lifetime. We intend to ensure you can relive this magical day through our photographs.
                             </p>
                             <br />
                             <h3 className='d-flex justify-content-end'>About Us</h3>
+                            <div className='d-flex justify-content-end '>
+                                <hr className='d-flex justify-content-end w-50 downHR' data-aos="fade-right" />
+                            </div>
                         </div>
                     </div>
 
