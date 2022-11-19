@@ -25,7 +25,7 @@ const ChoseHowYouWantItModal = () => {
                                         <p>
                                             For more please call us at +8801885513223 or +8801706391888
                                         </p>
-                                        {/* <h3 className='d-flex justify-content-end'>BDT 100,000.00</h3> */}
+                                        {/* <h3 className='d-flex justify-content-end mt-5'>BDT 100,000.00</h3> */}
 
                                     </div>
                                 </div>

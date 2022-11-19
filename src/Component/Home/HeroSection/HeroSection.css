@@ -28,7 +28,10 @@
 /* mobile devices */
 @media only screen and (max-width:688px) {
 
-
+    .qrCode {
+        padding-left: 6rem !important;
+        padding-right: 6rem !important;
+    }
 
     .HeroSection {
         background-image: url("./../../../Assets/Images/herosectionMobile.jpg");

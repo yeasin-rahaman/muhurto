@@ -73,7 +73,7 @@ const MidnightInParisModal = () => {
                                             𝙁𝙚𝙬 𝙢𝙤𝙧𝙚 𝙀𝙭𝙘𝙡𝙪𝙨𝙞𝙫𝙚 𝙎𝙚𝙧𝙫𝙞𝙘𝙚𝙨 𝙬𝙞𝙡𝙡 𝙗𝙚 𝙋𝙧𝙤𝙫𝙞𝙙𝙚𝙙 𝙬𝙞𝙩𝙝𝙞𝙣 𝙩𝙝𝙞𝙨 𝙋𝙖𝙘𝙠𝙖𝙜𝙚. 𝙒𝙚 𝙬𝙞𝙡𝙡 𝙙𝙞𝙨𝙘𝙡𝙤𝙨𝙚 𝙩𝙝𝙞𝙨 𝙨𝙚𝙧𝙫𝙞𝙘𝙚 𝙤𝙥𝙩𝙞𝙤𝙣𝙨 𝙙𝙪𝙧𝙞𝙣𝙜 𝙘𝙡𝙞𝙚𝙣𝙩 𝙢𝙚𝙚𝙩𝙞𝙣𝙜.
                                             For more please call us at +8801885513223 or +8801706391888
                                         </p>
-                                        <h3 className='d-flex justify-content-end'>BDT 35,000 Only</h3>
+                                        <h3 className='d-flex justify-content-end mt-5'>BDT 35,000 Only</h3>
 
                                     </div>
                                 </div>

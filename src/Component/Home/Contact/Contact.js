@@ -40,7 +40,7 @@ const Contact = () => {
                 </div>
                 <div className="col-12 col-md-2 ">
                     <div className=' py-5'>
-                        <img src={qr} className='img-fluid p-4' alt="" />
+                        <img src={qr} className='img-fluid p-4 qrCode' alt="" />
                     </div>
                 </div>
             </div>
