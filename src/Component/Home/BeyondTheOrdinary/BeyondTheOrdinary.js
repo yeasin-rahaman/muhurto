@@ -11,7 +11,7 @@ const BeyondTheOrdinary = () => {
                     <div className="col-md-6 col-12 my-5">
                         <h2>PHOTOGRAPHY IS THE STORY I FAIL TO PUT INTO WORDS</h2>
                         <p>Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Sem et tortor consequat id porta nibh venenatis cras tincidunt praesent semper.</p>
-                        <br />
+
                         <p>
                             Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Sem et tortor consequat id porta nibh venenatis cras tincidunt praesent semper.
                         </p>
